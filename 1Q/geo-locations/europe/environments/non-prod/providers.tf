@@ -8,7 +8,7 @@ terraform {
   backend "gcs" {
     bucket      = "tf-state-np"
     prefix      = "env/non-prod"
-    credentials = "/home/amujumdar2208/terraform-class/12-Affordable-Web-Apps/cicd.json"
+    credentials = "/path-to-sa-cicd.json"
   }
 }
 
