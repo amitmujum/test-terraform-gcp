@@ -19,11 +19,4 @@ provider "google" {
   project     = var.project
 }
 
-provider "google-beta" {
-  credentials = var.credentials
-  region      = var.region
-  zone        = var.zone
-  project     = var.project
-}
-
 
