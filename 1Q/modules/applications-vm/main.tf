@@ -9,7 +9,7 @@ terraform {
 
 
 resource "google_project_service" "main"{
-	project =  var.project
+    project =  var.project
     service =  "compute.googleapis.com"
     disable_dependent_services = true
     disable_on_destroy  = false
