@@ -23,3 +23,8 @@ module "compute_engine" {
   region                  = var.region
   project                 = var.project
 }
+
+module "api_cloudrun" {
+  source              = "../../../../modules/app_cloudrun"
+  project             = var.project
+}
