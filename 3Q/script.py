@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 object = {"x":{"y":{"z":"a"}}}
 key = 'x/y/z'
 
