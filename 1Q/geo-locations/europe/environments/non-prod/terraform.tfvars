@@ -7,7 +7,6 @@ vpc_name            = "webapplication-vpc-non-prod"
 subnet_1            = "europe-north1-non-prod"
 subnet_2            = "europe-west1-non-prod"
 tier                = "BASIC"
-versioning          = false
 
 compute_name = "eu-np"
 machine_type = "e2-small"
